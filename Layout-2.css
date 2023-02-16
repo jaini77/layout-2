@@ -1,96 +1,104 @@
-/* Header CSS */
-.icon_title{
-    padding:2%;
-    margin-left: 5%;
+.container {
+    width: 850px;
+    border: 2px solid white;
+    height: 100%;
 }
-.icon_logo{
-    background-color: #4e7685;
-    box-shadow: -3px -3px #183b51;
-    height: 2%;
-    padding: 4%;
+
+.header_content {
+    margin-top: 15px;
 }
-.icon_txt p{
-    margin-top: 2%;
+
+.name {
+    color: orangered;
+    margin-left: 100px;
+    padding-bottom: 150px;
 }
-.icon_txt b{
-    color: #d06444;
-    font-weight: 950;
-}
-.section_img{
+
+.box {
+    background-color: rgba(64, 104, 101, 255);
+    border-radius: 0% 0% 50% 50%;
+    text-align: center;
+    width: 250px;
+    height: 215px;
+    font-size: 25px;
+    color: white;
+    padding: 25px;
+    margin-top: -50px;
+    margin-left: 55%;
     position: absolute;
-    margin-top: 8%;
+    opacity: 0.8;
 }
-.section_img img{
-    width: 106%;
+
+.maindiv {
+    position: relative;
 }
-.header_txt h2{
-    position: absolute;
-    width: 40%;
-    text-align: center;
-    right: 0;
-    padding: 10% 0 15% 0;
-    background-color: #093c3a9b;
-    border-radius: 0 0 100px 100px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    right:10%;
+
+.aboutus {
+    background-color: rgba(64, 104, 101, 255);
+    justify-content: center;
 }
-/* Session start */
-/* Services session */
-.services{
-    margin-top: 80%;
-    display: flexbox;
-}
-.title_service h4{
-    color: #2b564c;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 3%;
-}
-.num h1{
-    font-weight: bold;
-    color: #d06444;
-    align-content: center;
-    padding-top: 5%;
-}
-.txt_service h5{
-    color: #2b564c;
-    font-size: large;
-}
-.all_service{
-    padding: 4%;
-}
-/* About & contact session */
-.snd_section{
-    margin-top: 74.5%;
-}
-.about{
-    background-color: #2b564c;
-    padding: 5%;
+.abouttitle{
+    padding-left:10px;
+    padding-top: 10px;
     color: white;
 }
-.contact{
-    background-color: #d06444;
-    padding: 5%;
+.about_content{
+    padding-top:6px;
+    padding-left:30px;
+    padding-right:20px;
+    padding-bottom:20px;
+    font-size:19px;
     color: white;
 }
-.about h2,.contact h2{
+.contactus {
+    background-color:orangered;
+    justify-content: center;
+    margin-top: -17px;
+}
+.contactustitle{
+    padding-left:10px;
+    padding-top: 10px;
+    color: white;
+}
+.contactus_content{
+    padding-top:6px;
+    padding-left:30px;
+    padding-right:20px;
+    padding-bottom:20px;
+    font-size:20px;
+    color: white;
+}
+.link {
+    background-color:rgba(213,229, 229, 255);
     text-align: center;
-    font-weight: bold;
+    margin-top: -17px;
 }
-.website{
-    background-color: #d4e4e4;
-    padding: 5%;
-    text-align: center;
+.link_content{
+    padding-top:6px;
+    padding-left:30px;
+    padding-right:20px;
+    padding-bottom:20px;
+    font-size:25px;
+    color: black;
 }
-.website a{
-    text-decoration: none;
-    color: #a6bfc3;
+.services_heading{
+    padding-top:30px;
+    color: green;
 }
-/* Footer CSS */
-footer{
-    padding: 0.5%;
-    background-color: #d06444;
+.first_service{
+    padding-top:30px;
+}
+.number{
+    font-size:50px;
+    color:orangered;
+    display: inline; 
+}
+.service_name{
+    color: green;
+}
+.img_1{
+    background-color: rgb(15, 37, 30);
+    padding:1%; 
+    box-shadow: -3px -3px rgb(48, 116, 87);
+    
 }
